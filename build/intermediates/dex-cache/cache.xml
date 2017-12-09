@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Greenest\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-f6db4f697fe5e87d59cfac24a349c3b36bfeebcb.jar" />
+    </item>
+    <item
+        jar="C:\Greenest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Greenest\app\build\intermediates\pre-dexed\debug\classes-414457a5676bf5732c377365941ffffd8279d260.jar" />
+    </item>
+    <item
+        jar="C:\Greenest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Greenest\app\build\intermediates\pre-dexed\debug\classes-90d90aae610b93e1115b0a462feb66de4aa1a06e.jar" />
+    </item>
+    <item
+        jar="C:\Greenest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Greenest\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-f2a14264692af10e61ce68f5819ec0a673966d41.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Greenest\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e68a40d62099f307821376a607c1f9a3a73c8abf.jar" />
+    </item>
+
+</items>

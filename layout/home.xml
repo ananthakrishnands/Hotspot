@@ -1,0 +1,101 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    tools:context=".MainActivity"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/Linlay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_marginTop="1dp"
+        android:background="#FFFFFF"
+        >
+    <EditText
+        android:id="@+id/edPost"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="77"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:hint=" What's on your mind?"
+        android:textSize="14dp"
+
+        android:background="#FFFFFF"
+        />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/upload_img"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:onClick="showGallery"
+                android:background="@drawable/gallery"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+               />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:text="Post"
+            android:onClick="doPost"
+            android:layout_weight="23"
+            android:background="@drawable/buttonshape"
+            android:textColor="#FFFFFF"
+
+            />
+   </LinearLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_below="@+id/Linlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- place your view here -->
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Linlay"
+            android:scrollbars="none"
+            android:scrollingCache="true"
+            android:animationCache="true"
+            android:divider="@null">
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</RelativeLayout>
+</FrameLayout>

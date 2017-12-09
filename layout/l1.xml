@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/logdesign"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+<TextView
+    android:id="@+id/warn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ff3300"
+    android:textStyle="italic"
+    android:textSize="16dp"
+
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center"
+    />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="Enter Email ID"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textColor="#2E2E2E"
+            android:fontFamily="Calibri"
+
+            />
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="Enter Password"
+            android:gravity="center"
+            android:textColor="#2E2E2E"
+            android:background="#ffffff"
+            android:layout_marginTop="20dp"
+            android:fontFamily="Calibri"
+            android:inputType="textPassword"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:layout_marginTop="15dp">
+            <Button
+                android:id="@+id/login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#ffffff"
+
+                android:onClick="doLogin"
+                android:background="@drawable/buttonshape"
+                android:layout_weight="50"/>
+
+            <Button
+                android:id="@+id/sign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:onClick="doSignup"
+                android:textColor="#ffffff"
+                android:layout_weight="50"
+                android:background="@drawable/buttonshape"
+                android:layout_marginLeft="5dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
